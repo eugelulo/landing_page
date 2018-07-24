@@ -1,0 +1,47 @@
+.header-img {
+    background-image: url("images/desk.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-one {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-one {
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+    margin-top: 200px;
+}
+
+.title-two {
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+    margin-bottom: 100px
+}
+
+.nav-bar {
+    display: flex;
+    color: white;
+    flex-direction: row-reverse;
+    
+    font-size: 15px;
+    padding-right: 30px;
+    padding-left: 900px;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    align-items: flex-end;
+
+}
+
+#about-item, #contact-item, #signup-item {
+    margin: 10px;
+}
